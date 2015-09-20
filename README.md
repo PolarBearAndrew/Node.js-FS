@@ -3,7 +3,9 @@
 
 #### 利用模組 fs-extra
 
-``` js
-import fs from 'fs-extra'
-fs.copy( source_path, target_path, callback )
-```
+* 複製某資料夾下的所有檔案
+
+  ``` js
+  import fs from 'fs-extra'
+  fs.copy( source_path, target_path, callback )
+  ```
